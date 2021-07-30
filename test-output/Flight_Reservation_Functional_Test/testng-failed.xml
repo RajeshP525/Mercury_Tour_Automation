@@ -7,7 +7,7 @@
   <test thread-count="5" name="Functional_Test(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.demoaut.newtours.testcases.LoginTest">
+      <class name="com.demoaut.newtours.testcases.AutomatedTest">
         <methods>
           <include name="loginToMercuryTours"/>
           <include name="findFlightTest"/>
