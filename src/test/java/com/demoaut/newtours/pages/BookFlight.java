@@ -37,13 +37,13 @@ public class BookFlight {
 	
 	public String fillBillingDetails() {
 		
-		firstName.sendKeys("Rohan");
-		lastName.sendKeys("Swayambhatla");
+		firstName.sendKeys("Rajesh");
+		lastName.sendKeys("Reddy");
 		creditCardNum.sendKeys("44556677");
 		Select monthSel= new Select(expiryMonth);
 		Select yearSel = new Select(expiryYear);
 		monthSel.selectByValue("10");
-		yearSel.selectByValue("2010");
+		yearSel.selectByValue("2021");
 		purchaseButton.click();
 		
 		return bookFlightDriver.getTitle();
